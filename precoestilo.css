@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    overflow-x: hidden;
+}
+/* global */
+span {
+    color: #2F86D6;
+}
+
+
+/* topo */
+.topo {
+    display: flex;
+    background-color: #2F86D6;
+    align-items: center;
+    height: 120px;
+}
+.topo{
+    
+    font-weight: bold;
+}
+.titulo h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.titulo h3 {
+    color: white;
+    font-size: 18px;
+}
+.titulo h1, h3{
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topo img {
+    height: 90px;
+    margin-left: 190px;
+}
+.links {
+    margin-left: 30%;
+}
+.links a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+/* 2 */
+.planos {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #F1F3F7;
+    margin-bottom: 100px ;
+}
+.planos img {
+    height: 150px;
+    
+}
+.planos h2 {
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 110px;
+}
+table th,table td { 
+    min-width: 300px; 
+    padding: 20px;
+}
+table p {
+    color: #a89f9f;
+    max-width: 190px;
+    margin-left: 55px;
+    margin-top: -20px;
+}
+td,th{
+    border: 3px solid rgba(240, 233, 233, 0.5);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+th ,.dir{
+    background-color: #c7c8c9
+}
+.teste h1{
+    font-size: 40px;
+    color: black;
+    line-height: 2.0;
+}
+.teste p{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.dir{
+    text-align: justify;
+    font-weight: 100;
+    font-weight: bold;
+}
+.one{
+    border: none;
+    background-color: #F1F3F7;
+}
+.bola{
+    font-size: 50px;
+    color: #2F86D6;
+    padding: 0;
+}
+
+
+
+/* 3 */
+.secao-rodape {
+    width: 100%;
+    padding: 50px 0;
+    font-family: sans-serif;
+    background-color: #2F86D6;
+}
+
+
+.logo-rodape {
+    height: 80px;
+    width: 80px;
+    margin-left: 760px;
+}
+
+.secao-rodape h1 {
+    margin-left: 870px;
+    margin-top: -90px;
+    font-size: 45px;
+}
+.finalidade-empresa {
+    margin-left: 870px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.contatos {
+    text-align: center;
+    font-weight: bold;
+    transform: translateY(30%);
+    font-family: 'Lucida Sans';
+    line-height: 2.8;
+    color: white;
+    margin-left: 60px;
+}
+.contatos p {
+    font-size: 19px;
+}
+.desenvolvimento {
+    text-align: center;
+    transform: translateY(200%);
+    font-weight: bold;
+    padding: 20px;
+    background-color: white;
+}
+
+/*  */
+
+li {
+    display: inline;
+    transform: scale(0);
+    transition-delay: 5s;
+}
+
+li:hover a {
+    color: black;
+    letter-spacing: 0.024em;
+    z-index: 1;
+    transition: 400ms;
+    letter-spacing: -0.125px;
+    text-decoration: none; /* Remova o sublinhado */
+    border-bottom: 2px solid black; /* Adicione uma linha embaixo das palavras */
+}
